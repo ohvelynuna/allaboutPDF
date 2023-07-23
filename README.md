@@ -19,5 +19,5 @@
 
 
 # MergePDF
-  same thing bro its simple software
+  same thing bro its simple software I will update the readme file when I have time.
 
