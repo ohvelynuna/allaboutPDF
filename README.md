@@ -23,8 +23,9 @@
 # PDF Flattener
 pdf_convert_to_unsearchable.py
 - make sure you install poppler
+- make sure you install all dependencies
 
-## how to install them for the uninitiated.
+### how to install poppler
 
 Go to https://github.com/oschwartz10612/poppler-windows/releases and download the binary of your choice. In this example we will download and use poppler-0.68.0_x86.
 
