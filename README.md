@@ -31,13 +31,8 @@ Go to https://github.com/oschwartz10612/poppler-windows/releases and download th
 
 Extract the archive file poppler-0.68.0_x86.7z into C:\Program Files. Thus, the directory structure should look something like this:
 
-C:
-    └ Program Files
-        └ poppler-0.68.0_x86
-            └ bin
-            └ include
-            └ lib
-            └ share
+![image](https://github.com/user-attachments/assets/81dc2c1e-8293-4ae0-b961-dc31e5c0dcb6)
+
 Add C:\Program Files\poppler-0.68.0_x86\bin to your system PATH by doing the following: Click on the Windows start button, search for Edit the system environment variables, click on Environment Variables..., under System variables, look for and double-click on PATH, click on New, then add C:\Users\Program Files\poppler-0.68.0_x86\bin, click OK.
 
 If you are using a terminal to execute poppler (e.g. running pdf2image in command line), you may need to reopen your terminal for poppler to work.
