@@ -5,6 +5,7 @@ import os
 
 def pdf_to_uneditable(input_pdf_path, output_pdf_path):
     # Convert each PDF page to an image
+    # please ensure poppler version is correct, else poppler won't be detected
     images = convert_from_path(input_pdf_path, poppler_path=r'C:\Program Files (x86)\poppler-24.02.0\Library\bin')
     
     print(f"Number of pages converted: {len(images)}")  # Diagnostic print
